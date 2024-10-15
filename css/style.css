@@ -1,0 +1,71 @@
+/* ==================common css===================
+================================================ */
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ol,ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* ==================common css end===================
+================================================ */
+
+/* =================main input start===================
+================================================ */
+#main_input{
+    background:#D1E9F6;
+    padding-top: 200px;
+    padding-bottom: 400px;
+}
+.input_bd{
+  
+    display: flex;
+    justify-content: center;
+}
+.input_text input{
+    width:400px;
+    height: 50px;
+    background: #E2BFD9;
+    border:5px solid #C8A1E0;
+    border-right: none;
+    border-radius: 10px;
+    border-radius: 10px;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0 ;
+    color:#674188;
+    padding: 10px;
+}
+.input_button button{
+    background: #EAE4DD;
+    border:5px solid #C8A1E0;
+    width: 50px;
+    height: 50px;
+    border-left: none;
+    border-radius: 10px;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0 ;
+}
+.input_button button:active{
+    transform: scale(1.1);
+}
+/* -------------------------------- */
+.text_result{
+    position: relative;
+}
+h2{
+    color:#674188;
+    position: absolute;
+    top:50px;
+    left:50%;
+    transform: translateX(-50%);
+}
+/* ==================main input end===================
+================================================ */
